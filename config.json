@@ -1,0 +1,19 @@
+{
+  "steam": {
+    "profile_id": "lmagine85",
+    "wishlist_url": "https://store.steampowered.com/wishlist/id/lmagine85/wishlistdata/"
+  },
+  "epic": {
+    "free_games_url": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions",
+    "deals_source": "cheapshark",
+    "max_display": 20
+  },
+  "filter": {
+    "on_sale_only": true,
+    "max_price_krw": 15000
+  },
+  "notion": {
+    "game_page_id": "32e3042420dd805587fdc73845074b0c",
+    "deals_page_id": "3383042420dd819cb096c3aa2d0b18d6"
+  }
+}
