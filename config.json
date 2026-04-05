@@ -8,7 +8,7 @@
   "epic": {
     "free_games_url": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions",
     "deals_source": "cheapshark",
-    "max_display": 20
+    "max_display": 30
   },
   "filter": {
     "on_sale_only": true,

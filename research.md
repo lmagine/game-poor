@@ -329,30 +329,26 @@ schedule은 Git 레포를 clone하여 실행하므로, **GitHub 레포 생성이
 
 ## 14. 수정된 권장 진행 순서
 
-1. **Phase 1 (사전 준비)**
-   - GitHub에 `game-poor` private 레포 생성
-   - `config.json`에 관심 게임 목록 작성
-   - Notion에 결과 저장용 데이터베이스 생성
+1. **Phase 1 (사전 준비)** ✅ 완료
+   - GitHub에 `game-poor` 레포 생성
+   - `config.json`에 설정 작성
+   - Notion에 결과 저장용 페이지 생성 (📡 스케줄 수집 > 💰 game-poor 할인 정보)
 
-2. **Phase 2 (MVP — 키 불필요)**
-   - CheapShark API + Epic 무료게임 수집 프롬프트 작성
-   - Notion에 결과 작성하는 schedule 생성 (매일 21:00 KST)
+2. **Phase 2 (MVP)** ✅ 완료
+   - Steam 찜목록 + CheapShark + Epic 무료게임 수집
+   - Notion에 결과 작성하는 schedule 생성 (매일 21:00 KST, bridge 환경)
    - 동작 확인 및 프롬프트 튜닝
+   - Bash 권한 자동 승인 설정
 
-3. **Phase 3 (확장 — ITAD)**
+3. **Phase 3 (확장 — ITAD + Nintendo + 관심 게임 관리)** ← 다음
    - ITAD API 키 발급
    - 멀티스토어 할인 추적 추가
    - Nintendo eShop 가격 추적 (ITAD 경유)
+   - Nintendo 관심 게임 목록 관리 (config.json에 수동 등록)
 
-4. **Phase 4 (위시리스트)**
-   - Steam 프로필 공개 설정
-   - Steam 위시리스트 연동
-
-5. **Phase 5 (이메일 전환)**
-   - SendGrid 또는 Mailgun 계정 생성
-   - 이메일 발송으로 전환 (Notion 병행 가능)
-
-6. **Phase 6 (고도화)**
+4. **Phase 4 (고도화)** — 보류
    - 가격 이력 추적 (레포 내 JSON 파일로 누적)
    - 최저가 알림
    - 장르/태그 기반 추천
+
+~~Phase 5 (이메일 전환)~~ — 폐기 (Notion으로 대체)
