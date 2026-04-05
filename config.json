@@ -1,7 +1,9 @@
 {
   "steam": {
     "profile_id": "lmagine85",
-    "wishlist_url": "https://store.steampowered.com/wishlist/id/lmagine85/wishlistdata/"
+    "steam_id": "76561198045004751",
+    "wishlist_api": "https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198045004751",
+    "app_details_api": "https://store.steampowered.com/api/appdetails?cc=kr"
   },
   "epic": {
     "free_games_url": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions",
