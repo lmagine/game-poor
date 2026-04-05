@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)",
+      "Bash(python3 *)",
+      "Bash(cat *)",
+      "Bash(export *)",
+      "Bash(sleep *)",
+      "Bash(echo *)"
+    ]
+  }
+}
