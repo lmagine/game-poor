@@ -14,6 +14,25 @@
     "on_sale_only": true,
     "max_price_krw": 15000
   },
+  "nintendo": {
+    "price_api": "https://api.ec.nintendo.com/v1/price?country=KR&lang=ko",
+    "store_url": "https://store.nintendo.co.kr",
+    "wishlist": [
+      {"name": "마리오 카트 8 디럭스", "nsuid": "70010000009373", "tag": "공통"},
+      {"name": "요시 크래프트 월드", "nsuid": "70010000018872", "tag": "공통"},
+      {"name": "Balloon Pop", "nsuid": "70010000044844", "tag": "공통"},
+      {"name": "별의 커비 디스커버리", "nsuid": "70010000046407", "tag": "해원"},
+      {"name": "별의 커비 스타 얼라이즈", "nsuid": "70010000009382", "tag": "소담"},
+      {"name": "포켓몬스터 레츠고! 피카츄", "nsuid": "70010000015694", "tag": "해원"},
+      {"name": "슈퍼 마리오 오디세이", "nsuid": "70010000009372", "tag": "해원"},
+      {"name": "슈퍼 마리오 3D 월드 + 퓨리 월드", "nsuid": "70010000034441", "tag": "해원"},
+      {"name": "Captain Toad: Treasure Tracker", "nsuid": "70010000011067", "tag": "해원"},
+      {"name": "기간토사우루스 더 게임", "nsuid": "70010000028578", "tag": "해원"},
+      {"name": "퍼피 구조대: 그랑 프리", "nsuid": "70010000054714", "tag": "해원"},
+      {"name": "Super Dino", "nsuid": "70010000059427", "tag": "소담"},
+      {"name": "Dorfromantik", "nsuid": "70010000056981", "tag": "소담"}
+    ]
+  },
   "notion": {
     "game_page_id": "32e3042420dd805587fdc73845074b0c",
     "deals_page_id": "3383042420dd819cb096c3aa2d0b18d6"
